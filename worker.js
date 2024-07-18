@@ -12,7 +12,7 @@ async function handleRequest(request) {
 
 	if (!actualUrlStr) {
 		const mainDomain = url.hostname;
-		const websiteTitle = "Anti proxy for Mingyu"; // 请替换为您的网站标题
+		const websiteTitle = "Anti proxy for Opsbox"; // 请替换为您的网站标题
 		const errorMessage = `
 		<html>
 		    <head>
@@ -123,7 +123,7 @@ async function handleRequest(request) {
 		          <input type="text" id="url" name="url" placeholder="例如：https://github.com/" />
 		          <input type="button" id="submit" value="进入代理" onclick="redirectToProxy()" />
 		        </div>
-		  <p>&copy; 2023 <a href="https://github.com/ymyuuu/" target="_blank">Mingyu</a></p>
+		  <p>&copy; 2023 <a href="https://github.com/seanly/" target="_blank">Opsbox Cloud</a></p>
 		      </div>
 		      <script>
 		        function redirectToProxy() {
